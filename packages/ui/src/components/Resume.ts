@@ -10,64 +10,122 @@ export class ResumeSection extends LitElement {
 
     private experiences = [
         {
-            title: 'Senior Software Architect',
-            company: 'Tech Innovations Inc.',
-            period: '2022 - Present',
+            title: 'Senior Software Delivery Manager and Architect',
+            company: 'Blue Cross Blue Shield of North Carolina',
+            period: 'Apr 2023 - Present',
+            summary: 'Leads architecture strategy and multiple software delivery teams, designing and governing cloud-native solutions that align IT capabilities to business outcomes in the healthcare payer domain.',
             description: [
-                'Led architecture redesign of core platform, improving scalability by 300%',
-                'Established engineering best practices and DevOps workflows across 5 teams',
-                'Mentored 15+ developers in system design and cloud architecture'
+                'Enterprise Architecture & Strategy: Developed and executed a multi-year architecture modernization strategy for legacy application stacks, authoring reference architectures and roadmaps for microservice cloud adoption and web component technologies (modern JS frameworks) starting in 2024; assessed total cost of ownership and scalability tradeoffs to optimize portfolio decisions and reduce technical debt.',
+                'Architecture Governance & Standards: Established architecture patterns, standards, and decision frameworks adopted across multiple delivery teams; evaluated solution alternatives and governed architecture alignment across business and IT domains to ensure traceability to enterprise objectives.',
+                'Cloud Architecture (AWS): Led migration of legacy Java services to cloud microservices in AWS; defined target-state architectures and reference models; coordinated staff training and adoption of AWS technologies with internal and external partners; migrated ~25% of legacy services to AWS in 2024 to improve scalability and operability.',
+                'Solution Assessment & Vendor Guidance: Represented architecture in the evaluation of solution alternatives and technology platforms; assessed build vs. buy decisions, led vendor integration planning, and ensured proposed solutions aligned with enterprise blueprints and standards.',
+                'Architecture Consulting & Mentoring: Led a team of 25 engineers across ~10-15 enterprise projects per year; coached managers and principal developers on architecture decisions, design patterns, and delivery practices; mentored Computer Science students on AWS Serverless architecture patterns and senior project execution.',
+                'Digital Experience & Business Outcomes: Architected and coordinated a scalable cloud solution that decreased paper submissions by 60% and doubled digital submissions through improved UX, integrations, and operational automation; partnered with product and business stakeholders to align solutions to customer-facing goals.',
+                'Delivery & DevOps Practices: Championed CI/CD, DevOps, and Blue/Green deployment strategies to increase deployment frequency and reduce rollback incidents; applied Agile (Scrum) and Kanban practices to tailor delivery cadence to team and product needs.',
+                'Cross-functional Collaboration & Stakeholder Influence: Established a strategic partnership with Salesforce, product management, QA, infrastructure, security, and business operations to resolve roadblocks, influence priorities, ensure compliance (including healthcare regulatory considerations with NCDOI and CMS), and verify production readiness for member-facing systems.',
             ]
         },
         {
-            title: 'Lead Software Engineer',
-            company: 'Digital Solutions Corp',
-            period: '2019 - 2022',
+            title: 'Software Development Manager & Solutions Architecture',
+            company: 'Blue Cross Blue Shield of North Carolina',
+            period: 'Apr 2017 - Apr 2023',
+            summary: 'Led a team of 14-16 developers and analysts in migrating core systems, managing mission-critical applications, and\n' +
+                'driving architecture alignment across multiple business divisions and technical platforms.',
             description: [
-                'Architected and delivered microservices platform serving 2M+ users',
-                'Led migration from monolith to event-driven architecture',
-                'Implemented CI/CD pipelines reducing deployment time by 80%'
+                'Architecture Alignment & Roadmap Planning: Assessed architecture impacts during planning to ensure alignment with IT strategy and enterprise roadmaps for customer-facing systems; collaborated with product owners, business analysts, UX, and infrastructure to refine scope and prioritize features against architectural constraints.',
+                'Team Leadership & People Development: Directed a 16-person team of leads and developers, fostering professional growth and consistent delivery through coaching, 1:1s, and career development.',
+                'Agile/Scrum Management: Championed transition to Agile across multiple delivery teams, instituting sprint planning, backlog refinement, and retrospective-driven continuous improvement; supported >100 deployments per year using Blue/Green mechanisms.',
+                'Delivery Operations & Quality: Managed multiple concurrent work streams, balancing business expectations with budget and schedule constraints; implemented code review standards and testing pipelines to improve release quality and reduce production incidents.'
             ]
         },
         {
-            title: 'Senior Developer',
-            company: 'StartupXYZ',
-            period: '2016 - 2019',
+            title: 'Principal Developer & Architect',
+            company: 'Blue Cross Blue Shield of North Carolina',
+            period: 'Jun 2014 - Apr 2017',
+            summary: 'Drove architectural decisions for a suite of applications, developed technical roadmaps, and mentored developers by establishing design patterns and sound development practices.',
             description: [
-                'Built RESTful APIs and serverless functions handling 10M+ requests/day',
-                'Optimized database performance and implemented caching strategies',
-                'Developed real-time data processing pipelines'
+                'Technology & Architecture Leadership: Guided a team of 16 developers on Java and full-stack best practices and industry trends; acted as liaison between technical teams and business units to align architecture with organizational objectives and business initiatives.',
+                'Technical Strategy & Roadmaps: Led strategic planning for critical applications and developed technical roadmaps and reference architectures to support cloud transformation and modernization efforts; guided selection and implementation of AWS infrastructure, web frameworks, and web component stacks.',
+                'Code Reviews & Quality Management: Established rigorous code review processes and quality metrics, improving maintainability and reducing defects across teams.',
+                'Full-Stack Development & DevOps: Architected and operated three customer facing e-commerce portals and a dozen microservices running in AWS and Kubernetes; oversaw CI/CD pipeline enhancements to accelerate delivery.'
             ]
-        }
+        },
+        {
+            title: 'Senior Software Developer',
+            company: 'Blue Cross Blue Shield of North Carolina',
+            period: 'Mar 2008 - May 2014',
+            summary: 'Developed enterprise solutions for Individual Sales and Enrollment.',
+            description: [
+                'Identity & Integrations: Architected and implemented a SAML-based SSO system interfacing with the Federal Health Insurance Marketplace, enabling applicants to make binder payments via bank draft and credit cards; integrated Tivoli Federated Identity Manager and CyberSource payment vendor with Java Spring services.',
+                'Full-Stack Development & Call Center Integration: Developed and maintained a pay-by-phone IVR solution for the individual insurance market (Medicare and Commercial); migrated a custom IVR to a vendor VUI system and integrated SOAP/REST services to maintain continuity of call-center payment flows.',
+                'Migration & Quality Assurance: Led migration of WebSphere Application Server solutions to the Facets enrollment system, ensuring performance and code quality during cutovers and maintaining continuity for enrollment operations; ensured integrations met healthcare regulatory expectations.'
+            ]
+        },
+        {
+            title: 'Senior Software Developer',
+            company: 'NTT Data (Formerly Keane)',
+            period: 'Aug 2007 - Mar 2008',
+            summary: 'Developed enterprise solutions for NC Department of Transportation.',
+            description: [
+                'Identity & Integrations: Implemented an integration between Java front-end and mainframe backend'
+            ]
+        },
+        {
+            title: 'Staff Application Engineer',
+            company: 'IBM',
+            period: 'Oct 2000 - Aug 2007',
+            summary: 'Developed enterprise solutions for chip manufacturing automation.',
+            description: [
+                ''
+            ]
+        },
+        {
+            title: 'System Analyst',
+            company: 'Analytic Services (ANSER)',
+            period: 'Mar 1998 - Oct 2000',
+            summary: 'Developed internal websites for the Secretary of the Air Force Acquisition and System Engineering (SAF/AQRE)',
+            description: [
+                ''
+            ]
+        },
     ];
 
     private education = [
         {
             degree: 'Master of Science in Computer Science',
-            school: 'University of Technology',
-            year: '2015'
+            school: 'Marist College',
+            year: '2006'
         },
         {
-            degree: 'Bachelor of Science in Software Engineering',
-            school: 'State University',
-            year: '2013'
+            degree: 'Master of Science in Project Management',
+            school: 'Western Carolina University',
+            year: '2009'
+        },
+        {
+            degree: 'Certificate in UNIX/C/C++ Programming',
+            school: 'George Washington University',
+            year: '1999'
+        },
+        {
+            degree: 'Bachelor of Science in Bioengineering',
+            school: 'Western New England College',
+            year: '1997'
         }
     ];
 
     private certifications = [
-        'AWS Certified Solutions Architect - Professional',
-        'Google Cloud Professional Architect',
-        'Kubernetes Administrator (CKA)',
-        'TOGAF 9 Certified'
+        'AWS Certified AI Practitioner',
+        'AWS Certified Cloud Practitioner',
+        'CompTIA Network+'
     ];
 
     private technicalSkills = {
-        'Languages': ['TypeScript', 'Python', 'Go', 'Java', 'Rust'],
-        'Cloud & Infrastructure': ['AWS', 'Google Cloud', 'Azure', 'Kubernetes', 'Terraform'],
-        'Frameworks': ['React', 'Node.js', 'FastAPI', 'Spring Boot', 'Next.js'],
+        'Languages': ['TypeScript', 'Java', 'JavaScript', 'Bash'],
+        'Cloud & Infrastructure': ['AWS', 'AWS Cloud Development Kit (CDK)', 'Lambda', 'Step Functions', 'API Gateway', 'EventBridge', 'SQS', 'SNS'],
+        'Frameworks': ['React', 'Node.js', 'Spring Boot', 'Next.js', 'Lit'],
         'Architecture': ['Microservices', 'Event-Driven', 'Serverless', 'Domain-Driven Design'],
-        'Databases': ['PostgreSQL', 'MongoDB', 'Redis', 'DynamoDB', 'Elasticsearch'],
-        'Tools': ['Docker', 'GitHub Actions', 'Jenkins', 'Grafana', 'Datadog']
+        'Databases': ['PostgreSQL', 'DynamoDB', 'Oracle', 'MySQL', 'DB2'],
+        'Tools': ['JIRA', 'Confluence', 'Docker', 'GitHub Actions', 'Jenkins', 'Grafana', 'Datadog']
     };
 
     private briefcaseIcon = html`
@@ -98,6 +156,17 @@ export class ResumeSection extends LitElement {
       <polyline points="8 6 2 12 8 18"></polyline>
     </svg>
   `;
+
+    private formatDescriptionItem(item: string) {
+        const colonIndex = item.indexOf(':');
+        if (colonIndex === -1) {
+            return html`<span>${item}</span>`;
+        }
+        const label = item.slice(0, colonIndex + 1)
+            .replace(/\w+/g, word => word.charAt(0).toUpperCase() + word.slice(1));
+        const rest = item.slice(colonIndex + 1);
+        return html`<span class="font-bold terminal-glow text-primary">${label}</span><span>${rest}</span>`;
+    }
 
     render() {
         return html`
@@ -133,11 +202,12 @@ export class ResumeSection extends LitElement {
                         ${exp.period}
                       </span>
                     </div>
+                      ${exp.summary ? html`<p class="text-muted-foreground mb-4">${exp.summary}</p>` : ''}
                     <ul class="space-y-2">
                       ${exp.description.map(item => html`
                         <li class="flex gap-3 text-sm text-muted-foreground">
-                          <span class="text-primary">&gt;</span>
-                          <span>${item}</span>
+                          <span class="text-primary">&gt; </span>
+                          <span>${this.formatDescriptionItem(item)}</span>
                         </li>
                       `)}
                     </ul>

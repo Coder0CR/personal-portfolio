@@ -12,7 +12,7 @@ export class HeroSection extends LitElement {
     @state()
     private displayedText = '';
 
-    private fullText = 'GREETINGS PROFESSOR FALKEN.';
+    private fullText = 'GREETINGS PROFESSOR.';
     private typingTimer?: number;
 
     connectedCallback() {
