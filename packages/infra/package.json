@@ -1,5 +1,5 @@
 {
-  "name": "infra",
+  "name": "@repo/infra",
   "version": "0.1.0",
   "bin": {
     "infra": "bin/infra.js"
@@ -8,7 +8,9 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
